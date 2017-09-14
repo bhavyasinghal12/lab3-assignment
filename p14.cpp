@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/*Program to input angles of a triangle and check whether triangle is valid or not.*/
-
 int main()
 {
   float a,b,c,sum;
@@ -16,8 +14,7 @@ int main()
   }
   else
   {
-   
-    cout<<" the given set of angles cannot form a triangle";
+  cout<<" the given set of angles cannot form a triangle";
   }
   return 0;
 }
