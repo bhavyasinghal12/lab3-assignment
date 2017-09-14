@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
  int main()
- {int i,n;
+ {int i=1,n;
  cout<<" Enter a number";
  cin>>n;
  cout<<endl;
- for(i=1;i<=n;i++)
- cout<<i<<endl;
+ while(i<=n)
+ {cout<<i<<endl;
+  i++;
+ }
  return 0;
  }
